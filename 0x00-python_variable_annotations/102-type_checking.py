@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-Contains a function that returns  a list of integers
+This function returns  a list of integers
 multiplied by certain factor.
 """
 from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """Returns a list of integers multiplied by certain factor.
+    """list of integers multiplied by a factor.
     Args:
-        lst: A tuple of integers.
-        factor: An integer.
+        lst: integers(tuple)
+        factor: Integer
     Returns:
-        A list of integers.
+        List of integers.
     """
     zoomed_in: List = [
         item for item in lst
