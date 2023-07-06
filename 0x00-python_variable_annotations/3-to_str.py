@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Contains a function that returns a string representation of a float"""
+"""A function that returns a string representation of a float"""
 
 
 def to_str(n: float) -> str:
-    """Returns a string representation of a float
+    """Retruns a string representation of a float
     Args:
-        n: A float to convert to a string
+        n: float to be returned as a string
     Returns:
-        A string representation of the float
+        float
     """
     return str(n)

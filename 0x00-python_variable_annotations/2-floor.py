@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Contains a single function that calculates the floor of a number."""
+"""A sigle function that calculates the floor of a number"""
 import math
 
 
 def floor(n: float) -> int:
-    """Returns the floor of a float."""
+    """displays the value for the float (n)"""
     return math.floor(n)
