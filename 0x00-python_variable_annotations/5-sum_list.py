@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Contains a function that sums a list of floats"""
+"""This function sums a list of floats"""
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """Sums a list of floats
+    """list of floats
     Args:
-        input_list (list): A list of floats
+        input_list (list): list of floats goes here
     Returns:
-        float: The sum of the floats in the list
+        float: sum of floats
     """
     if input_list is None:
         return 0
