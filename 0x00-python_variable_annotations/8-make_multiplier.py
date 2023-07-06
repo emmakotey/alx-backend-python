@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""This code includes a function that performs the multiplication of a float by a given     multiplier
-"""
+"""This code includes a function that performs the multiplication of a floa"""
 from typing import Callable
 
 
