@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Contains a coroutine that delays a certain amount of time and returns it"""
+"""
+This module contains an asynchronous coroutine that waits for a random delay.
+"""
 
 import asyncio
 import random
@@ -7,12 +9,8 @@ import random
 
 async def wait_random(max_delay: int = 10) -> float:
     """
-    Returns a random float between 0 and max_delay
-    Args:
-        max_delay: The maximum delay to return
-    Returns:
-        A random float between 0 and max_delay
+    Asynchronous coroutine that waits for a random delay between 0 and max_delay 	seconds (included).
     """
-    rand = random.uniform(0, max_delay)
-    await asyncio.sleep(rand)
-    return rand
+    delay = random.uniform(0, max_delay)
+    await asyncio.sleep(delay)
+    return delay
